@@ -1,0 +1,850 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Animation/Player.controller
+    - Assets/Animation/Player.meta
+    - Assets/Animation/Player/Attack.anim
+    - Assets/Animation/Player/Attack.anim.meta
+    - Assets/Animation/Player/Death.anim
+    - Assets/Animation/Player/Death.anim.meta
+    - Assets/Animation/Player/Hit.anim
+    - Assets/Animation/Player/Hit.anim.meta
+    - Assets/Animation/Player/Iddle.anim
+    - Assets/Animation/Player/Iddle.anim.meta
+    - Assets/Animation/Player/Jump.anim
+    - Assets/Animation/Player/Jump.anim.meta
+    - Assets/Animation/Player/Land.anim
+    - Assets/Animation/Player/Land.anim.meta
+    - Assets/Animation/Player/Run.anim
+    - Assets/Animation/Player/Run.anim.meta
+    - Assets/Animation/Player/falling.anim
+    - Assets/Animation/Player/falling.anim.meta
+    - Assets/Materials/Materials/Black.mat
+    - Assets/Materials/Materials/Black.mat.meta
+    - Assets/Materials/Materials/texturacarton.mat
+    - Assets/Materials/Materials/texturacarton2.mat
+    - Assets/Materials/Materials/texturamadera.mat
+    - Assets/Materials/Textures/texturacarton2 - copia.PNG.meta
+    - Assets/Prefabs/Mesa rodante 1 Variant.prefab
+    - Assets/Prefabs/Mesa rodante 1 Variant.prefab.meta
+    - Assets/Prefabs/Mesa rodante 1.fbx.meta
+    - Assets/Prefabs/Player Variant.prefab
+    - Assets/Prefabs/Player Variant.prefab.meta
+    - Assets/Prefabs/material.meta
+    - Assets/Prefabs/material/Material.001.mat
+    - Assets/Prefabs/material/Material.001.mat.meta
+    - Assets/Prefabs/material/Material.002.mat
+    - Assets/Prefabs/material/Material.002.mat.meta
+    - Assets/Prefabs/material/Material.003.mat
+    - Assets/Prefabs/material/Material.003.mat.meta
+    - Assets/Prefabs/material/Material.004.mat
+    - Assets/Prefabs/material/Material.004.mat.meta
+    - Assets/Prefabs/material/Material.005.mat
+    - Assets/Prefabs/material/Material.005.mat.meta
+    - Assets/Prefabs/material/Material.006.mat
+    - Assets/Prefabs/material/Material.006.mat.meta
+    - Assets/Prefabs/material/Material.007.mat
+    - Assets/Prefabs/material/Material.007.mat.meta
+    - Assets/Prefabs/material/Material.008.mat
+    - Assets/Prefabs/material/Material.008.mat.meta
+    - Assets/Prefabs/material/Material.009.mat
+    - Assets/Prefabs/material/Material.009.mat.meta
+    - Assets/Prefabs/material/Material.010.mat
+    - Assets/Prefabs/material/Material.010.mat.meta
+    - Assets/Prefabs/material/Material.011.mat
+    - Assets/Prefabs/material/Material.011.mat.meta
+    - Assets/Prefabs/material/Material.012.mat
+    - Assets/Prefabs/material/Material.012.mat.meta
+    - Assets/Prefabs/material/Material.013.mat
+    - Assets/Prefabs/material/Material.013.mat.meta
+    - Assets/Prefabs/material/Material.036.mat
+    - Assets/Prefabs/material/Material.036.mat.meta
+    - Assets/Prefabs/material/Material.038.mat
+    - Assets/Prefabs/material/Material.038.mat.meta
+    - Assets/Prefabs/material/Material.040.mat
+    - Assets/Prefabs/material/Material.040.mat.meta
+    - Assets/Prefabs/material/Material.041.mat
+    - Assets/Prefabs/material/Material.041.mat.meta
+    - Assets/Prefabs/material/Material.043.mat
+    - Assets/Prefabs/material/Material.043.mat.meta
+    - Assets/Prefabs/material/Material.045.mat
+    - Assets/Prefabs/material/Material.045.mat.meta
+    - Assets/Prefabs/material/Material.046.mat
+    - Assets/Prefabs/material/Material.046.mat.meta
+    - Assets/Prefabs/material/Material.047.mat
+    - Assets/Prefabs/material/Material.047.mat.meta
+    - Assets/Prefabs/material/Material.049.mat
+    - Assets/Prefabs/material/Material.049.mat.meta
+    - Assets/Prefabs/material/Material.051.mat
+    - Assets/Prefabs/material/Material.051.mat.meta
+    - Assets/Prefabs/material/Material.052.mat
+    - Assets/Prefabs/material/Material.052.mat.meta
+    - Assets/Prefabs/material/Material.053.mat
+    - Assets/Prefabs/material/Material.053.mat.meta
+    - Assets/Prefabs/material/Material.055.mat
+    - Assets/Prefabs/material/Material.055.mat.meta
+    - Assets/Prefabs/material/Material.057.mat
+    - Assets/Prefabs/material/Material.057.mat.meta
+    - Assets/Prefabs/material/Material.058.mat
+    - Assets/Prefabs/material/Material.058.mat.meta
+    - Assets/Prefabs/material/Material.059.mat
+    - Assets/Prefabs/material/Material.059.mat.meta
+    - Assets/Prefabs/material/Material.061.mat
+    - Assets/Prefabs/material/Material.061.mat.meta
+    - Assets/Prefabs/material/Material.063.mat
+    - Assets/Prefabs/material/Material.063.mat.meta
+    - Assets/Prefabs/material/Material.064.mat
+    - Assets/Prefabs/material/Material.064.mat.meta
+    - Assets/Prefabs/material/Material.065.mat
+    - Assets/Prefabs/material/Material.065.mat.meta
+    - Assets/Prefabs/material/Material.067.mat
+    - Assets/Prefabs/material/Material.067.mat.meta
+    - Assets/Prefabs/material/Material.069.mat
+    - Assets/Prefabs/material/Material.069.mat.meta
+    - Assets/Prefabs/material/Material.070.mat
+    - Assets/Prefabs/material/Material.070.mat.meta
+    - Assets/Prefabs/material/Material.071.mat
+    - Assets/Prefabs/material/Material.071.mat.meta
+    - Assets/Prefabs/material/Material.073.mat
+    - Assets/Prefabs/material/Material.073.mat.meta
+    - Assets/Prefabs/material/Material.075.mat
+    - Assets/Prefabs/material/Material.075.mat.meta
+    - Assets/Prefabs/material/Material.076.mat
+    - Assets/Prefabs/material/Material.076.mat.meta
+    - Assets/Prefabs/material/Material.077.mat
+    - Assets/Prefabs/material/Material.077.mat.meta
+    - Assets/Prefabs/material/Material.079.mat
+    - Assets/Prefabs/material/Material.079.mat.meta
+    - Assets/Prefabs/material/Material.081.mat
+    - Assets/Prefabs/material/Material.081.mat.meta
+    - Assets/Prefabs/material/Material.082.mat
+    - Assets/Prefabs/material/Material.082.mat.meta
+    - Assets/Prefabs/material/Material.083.mat
+    - Assets/Prefabs/material/Material.083.mat.meta
+    - Assets/Prefabs/material/Material.085.mat
+    - Assets/Prefabs/material/Material.085.mat.meta
+    - Assets/Prefabs/material/Material.087.mat
+    - Assets/Prefabs/material/Material.087.mat.meta
+    - Assets/Prefabs/material/Material.088.mat
+    - Assets/Prefabs/material/Material.088.mat.meta
+    - Assets/Prefabs/material/Material.089.mat
+    - Assets/Prefabs/material/Material.089.mat.meta
+    - Assets/Prefabs/material/Material.090.mat
+    - Assets/Prefabs/material/Material.090.mat.meta
+    - Assets/Prefabs/material/Material.092.mat
+    - Assets/Prefabs/material/Material.092.mat.meta
+    - Assets/Prefabs/material/Material.094.mat
+    - Assets/Prefabs/material/Material.094.mat.meta
+    - Assets/Prefabs/material/Material.095.mat
+    - Assets/Prefabs/material/Material.095.mat.meta
+    - Assets/Prefabs/material/Material.096.mat
+    - Assets/Prefabs/material/Material.096.mat.meta
+    - Assets/Prefabs/material/Material.098.mat
+    - Assets/Prefabs/material/Material.098.mat.meta
+    - Assets/Prefabs/material/Material.100.mat
+    - Assets/Prefabs/material/Material.100.mat.meta
+    - Assets/Prefabs/material/Material.101.mat
+    - Assets/Prefabs/material/Material.101.mat.meta
+    - Assets/Prefabs/material/Material.102.mat
+    - Assets/Prefabs/material/Material.102.mat.meta
+    - Assets/Prefabs/material/Material.104.mat
+    - Assets/Prefabs/material/Material.104.mat.meta
+    - Assets/Prefabs/material/Material.106.mat
+    - Assets/Prefabs/material/Material.106.mat.meta
+    - Assets/Prefabs/material/Material.107.mat
+    - Assets/Prefabs/material/Material.107.mat.meta
+    - Assets/Prefabs/material/Material.108 1.mat
+    - Assets/Prefabs/material/Material.108 1.mat.meta
+    - Assets/Prefabs/material/Material.108 2.mat
+    - Assets/Prefabs/material/Material.108 2.mat.meta
+    - Assets/Prefabs/material/Material.108.mat
+    - Assets/Prefabs/material/Material.108.mat.meta
+    - Assets/Prefabs/material/Material.109 1.mat
+    - Assets/Prefabs/material/Material.109 1.mat.meta
+    - Assets/Prefabs/material/Material.109 2.mat
+    - Assets/Prefabs/material/Material.109 2.mat.meta
+    - Assets/Prefabs/material/Material.109.mat
+    - Assets/Prefabs/material/Material.109.mat.meta
+    - Assets/Prefabs/material/Material.110 1.mat
+    - Assets/Prefabs/material/Material.110 1.mat.meta
+    - Assets/Prefabs/material/Material.110.mat
+    - Assets/Prefabs/material/Material.110.mat.meta
+    - Assets/Prefabs/material/Material.111 1.mat
+    - Assets/Prefabs/material/Material.111 1.mat.meta
+    - Assets/Prefabs/material/Material.111 2.mat
+    - Assets/Prefabs/material/Material.111 2.mat.meta
+    - Assets/Prefabs/material/Material.111.mat
+    - Assets/Prefabs/material/Material.111.mat.meta
+    - Assets/Prefabs/material/Material.112 1.mat
+    - Assets/Prefabs/material/Material.112 1.mat.meta
+    - Assets/Prefabs/material/Material.112 2.mat
+    - Assets/Prefabs/material/Material.112 2.mat.meta
+    - Assets/Prefabs/material/Material.112.mat
+    - Assets/Prefabs/material/Material.112.mat.meta
+    - Assets/Prefabs/material/Material.113 1.mat
+    - Assets/Prefabs/material/Material.113 1.mat.meta
+    - Assets/Prefabs/material/Material.113 2.mat
+    - Assets/Prefabs/material/Material.113 2.mat.meta
+    - Assets/Prefabs/material/Material.113.mat
+    - Assets/Prefabs/material/Material.113.mat.meta
+    - Assets/Prefabs/material/Material.114 1.mat
+    - Assets/Prefabs/material/Material.114 1.mat.meta
+    - Assets/Prefabs/material/Material.114 2.mat
+    - Assets/Prefabs/material/Material.114 2.mat.meta
+    - Assets/Prefabs/material/Material.114.mat
+    - Assets/Prefabs/material/Material.114.mat.meta
+    - Assets/Prefabs/material/Material.115 1.mat
+    - Assets/Prefabs/material/Material.115 1.mat.meta
+    - Assets/Prefabs/material/Material.115 2.mat
+    - Assets/Prefabs/material/Material.115 2.mat.meta
+    - Assets/Prefabs/material/Material.115.mat
+    - Assets/Prefabs/material/Material.115.mat.meta
+    - Assets/Prefabs/material/Material.116 1.mat
+    - Assets/Prefabs/material/Material.116 1.mat.meta
+    - Assets/Prefabs/material/Material.116 2.mat
+    - Assets/Prefabs/material/Material.116 2.mat.meta
+    - Assets/Prefabs/material/Material.116.mat
+    - Assets/Prefabs/material/Material.116.mat.meta
+    - Assets/Prefabs/material/Material.117 1.mat
+    - Assets/Prefabs/material/Material.117 1.mat.meta
+    - Assets/Prefabs/material/Material.117 2.mat
+    - Assets/Prefabs/material/Material.117 2.mat.meta
+    - Assets/Prefabs/material/Material.117.mat
+    - Assets/Prefabs/material/Material.117.mat.meta
+    - Assets/Prefabs/material/Material.118 1.mat
+    - Assets/Prefabs/material/Material.118 1.mat.meta
+    - Assets/Prefabs/material/Material.118 2.mat
+    - Assets/Prefabs/material/Material.118 2.mat.meta
+    - Assets/Prefabs/material/Material.118.mat
+    - Assets/Prefabs/material/Material.118.mat.meta
+    - Assets/Prefabs/material/Material.119 1.mat
+    - Assets/Prefabs/material/Material.119 1.mat.meta
+    - Assets/Prefabs/material/Material.119 2.mat
+    - Assets/Prefabs/material/Material.119 2.mat.meta
+    - Assets/Prefabs/material/Material.119.mat
+    - Assets/Prefabs/material/Material.119.mat.meta
+    - Assets/Prefabs/material/Material.120 1.mat
+    - Assets/Prefabs/material/Material.120 1.mat.meta
+    - Assets/Prefabs/material/Material.120 2.mat
+    - Assets/Prefabs/material/Material.120 2.mat.meta
+    - Assets/Prefabs/material/Material.120.mat
+    - Assets/Prefabs/material/Material.120.mat.meta
+    - Assets/Prefabs/material/Material.121 1.mat
+    - Assets/Prefabs/material/Material.121 1.mat.meta
+    - Assets/Prefabs/material/Material.121 2.mat
+    - Assets/Prefabs/material/Material.121 2.mat.meta
+    - Assets/Prefabs/material/Material.121.mat
+    - Assets/Prefabs/material/Material.121.mat.meta
+    - Assets/Prefabs/material/Material.122 1.mat
+    - Assets/Prefabs/material/Material.122 1.mat.meta
+    - Assets/Prefabs/material/Material.122 2.mat
+    - Assets/Prefabs/material/Material.122 2.mat.meta
+    - Assets/Prefabs/material/Material.122.mat
+    - Assets/Prefabs/material/Material.122.mat.meta
+    - Assets/Prefabs/material/Material.123 1.mat
+    - Assets/Prefabs/material/Material.123 1.mat.meta
+    - Assets/Prefabs/material/Material.123 2.mat
+    - Assets/Prefabs/material/Material.123 2.mat.meta
+    - Assets/Prefabs/material/Material.123.mat
+    - Assets/Prefabs/material/Material.123.mat.meta
+    - Assets/Prefabs/material/Material.124 1.mat
+    - Assets/Prefabs/material/Material.124 1.mat.meta
+    - Assets/Prefabs/material/Material.124 2.mat
+    - Assets/Prefabs/material/Material.124 2.mat.meta
+    - Assets/Prefabs/material/Material.124.mat
+    - Assets/Prefabs/material/Material.124.mat.meta
+    - Assets/Prefabs/material/Material.125 1.mat
+    - Assets/Prefabs/material/Material.125 1.mat.meta
+    - Assets/Prefabs/material/Material.125 2.mat
+    - Assets/Prefabs/material/Material.125 2.mat.meta
+    - Assets/Prefabs/material/Material.125.mat
+    - Assets/Prefabs/material/Material.125.mat.meta
+    - Assets/Prefabs/material/Material.126 1.mat
+    - Assets/Prefabs/material/Material.126 1.mat.meta
+    - Assets/Prefabs/material/Material.126 2.mat
+    - Assets/Prefabs/material/Material.126 2.mat.meta
+    - Assets/Prefabs/material/Material.126.mat
+    - Assets/Prefabs/material/Material.126.mat.meta
+    - Assets/Prefabs/material/Material.127 1.mat
+    - Assets/Prefabs/material/Material.127 1.mat.meta
+    - Assets/Prefabs/material/Material.127 2.mat
+    - Assets/Prefabs/material/Material.127 2.mat.meta
+    - Assets/Prefabs/material/Material.127.mat
+    - Assets/Prefabs/material/Material.127.mat.meta
+    - Assets/Prefabs/material/Material.128 1.mat
+    - Assets/Prefabs/material/Material.128 1.mat.meta
+    - Assets/Prefabs/material/Material.128 2.mat
+    - Assets/Prefabs/material/Material.128 2.mat.meta
+    - Assets/Prefabs/material/Material.128.mat
+    - Assets/Prefabs/material/Material.128.mat.meta
+    - Assets/Prefabs/material/Material.129 1.mat
+    - Assets/Prefabs/material/Material.129 1.mat.meta
+    - Assets/Prefabs/material/Material.129 2.mat
+    - Assets/Prefabs/material/Material.129 2.mat.meta
+    - Assets/Prefabs/material/Material.129.mat
+    - Assets/Prefabs/material/Material.129.mat.meta
+    - Assets/Prefabs/material/Material.130 1.mat
+    - Assets/Prefabs/material/Material.130 1.mat.meta
+    - Assets/Prefabs/material/Material.130 2.mat
+    - Assets/Prefabs/material/Material.130 2.mat.meta
+    - Assets/Prefabs/material/Material.130.mat
+    - Assets/Prefabs/material/Material.130.mat.meta
+    - Assets/Prefabs/material/Material.131 1.mat
+    - Assets/Prefabs/material/Material.131 1.mat.meta
+    - Assets/Prefabs/material/Material.131 2.mat
+    - Assets/Prefabs/material/Material.131 2.mat.meta
+    - Assets/Prefabs/material/Material.131.mat
+    - Assets/Prefabs/material/Material.131.mat.meta
+    - Assets/Prefabs/material/Material.132 1.mat
+    - Assets/Prefabs/material/Material.132 1.mat.meta
+    - Assets/Prefabs/material/Material.132 2.mat
+    - Assets/Prefabs/material/Material.132 2.mat.meta
+    - Assets/Prefabs/material/Material.132.mat
+    - Assets/Prefabs/material/Material.132.mat.meta
+    - Assets/Prefabs/material/Material.133 1.mat
+    - Assets/Prefabs/material/Material.133 1.mat.meta
+    - Assets/Prefabs/material/Material.133 2.mat
+    - Assets/Prefabs/material/Material.133 2.mat.meta
+    - Assets/Prefabs/material/Material.133.mat
+    - Assets/Prefabs/material/Material.133.mat.meta
+    - Assets/Prefabs/material/Material.134 1.mat
+    - Assets/Prefabs/material/Material.134 1.mat.meta
+    - Assets/Prefabs/material/Material.134 2.mat
+    - Assets/Prefabs/material/Material.134 2.mat.meta
+    - Assets/Prefabs/material/Material.134.mat
+    - Assets/Prefabs/material/Material.134.mat.meta
+    - Assets/Prefabs/material/Material.135 1.mat
+    - Assets/Prefabs/material/Material.135 1.mat.meta
+    - Assets/Prefabs/material/Material.135 2.mat
+    - Assets/Prefabs/material/Material.135 2.mat.meta
+    - Assets/Prefabs/material/Material.135.mat
+    - Assets/Prefabs/material/Material.135.mat.meta
+    - Assets/Prefabs/material/Material.136 1.mat
+    - Assets/Prefabs/material/Material.136 1.mat.meta
+    - Assets/Prefabs/material/Material.136 2.mat
+    - Assets/Prefabs/material/Material.136 2.mat.meta
+    - Assets/Prefabs/material/Material.136.mat
+    - Assets/Prefabs/material/Material.136.mat.meta
+    - Assets/Prefabs/material/Material.137 1.mat
+    - Assets/Prefabs/material/Material.137 1.mat.meta
+    - Assets/Prefabs/material/Material.137 2.mat
+    - Assets/Prefabs/material/Material.137 2.mat.meta
+    - Assets/Prefabs/material/Material.137.mat
+    - Assets/Prefabs/material/Material.137.mat.meta
+    - Assets/Prefabs/material/Material.138 1.mat
+    - Assets/Prefabs/material/Material.138 1.mat.meta
+    - Assets/Prefabs/material/Material.138 2.mat
+    - Assets/Prefabs/material/Material.138 2.mat.meta
+    - Assets/Prefabs/material/Material.138.mat
+    - Assets/Prefabs/material/Material.138.mat.meta
+    - Assets/Prefabs/material/Material.139 1.mat
+    - Assets/Prefabs/material/Material.139 1.mat.meta
+    - Assets/Prefabs/material/Material.139 2.mat
+    - Assets/Prefabs/material/Material.139 2.mat.meta
+    - Assets/Prefabs/material/Material.139.mat
+    - Assets/Prefabs/material/Material.139.mat.meta
+    - Assets/Prefabs/material/Material.140 1.mat
+    - Assets/Prefabs/material/Material.140 1.mat.meta
+    - Assets/Prefabs/material/Material.140 2.mat
+    - Assets/Prefabs/material/Material.140 2.mat.meta
+    - Assets/Prefabs/material/Material.140.mat
+    - Assets/Prefabs/material/Material.140.mat.meta
+    - Assets/Prefabs/material/Material.141 1.mat
+    - Assets/Prefabs/material/Material.141 1.mat.meta
+    - Assets/Prefabs/material/Material.141 2.mat
+    - Assets/Prefabs/material/Material.141 2.mat.meta
+    - Assets/Prefabs/material/Material.141.mat
+    - Assets/Prefabs/material/Material.141.mat.meta
+    - Assets/Prefabs/material/Material.142 1.mat
+    - Assets/Prefabs/material/Material.142 1.mat.meta
+    - Assets/Prefabs/material/Material.142 2.mat
+    - Assets/Prefabs/material/Material.142 2.mat.meta
+    - Assets/Prefabs/material/Material.142.mat
+    - Assets/Prefabs/material/Material.142.mat.meta
+    - Assets/Prefabs/material/Material.143 1.mat
+    - Assets/Prefabs/material/Material.143 1.mat.meta
+    - Assets/Prefabs/material/Material.143 2.mat
+    - Assets/Prefabs/material/Material.143 2.mat.meta
+    - Assets/Prefabs/material/Material.143.mat
+    - Assets/Prefabs/material/Material.143.mat.meta
+    - Assets/Prefabs/material/Material.144 1.mat
+    - Assets/Prefabs/material/Material.144 1.mat.meta
+    - Assets/Prefabs/material/Material.144 2.mat
+    - Assets/Prefabs/material/Material.144 2.mat.meta
+    - Assets/Prefabs/material/Material.144.mat
+    - Assets/Prefabs/material/Material.144.mat.meta
+    - Assets/Prefabs/material/Material.145 1.mat
+    - Assets/Prefabs/material/Material.145 1.mat.meta
+    - Assets/Prefabs/material/Material.145 2.mat
+    - Assets/Prefabs/material/Material.145 2.mat.meta
+    - Assets/Prefabs/material/Material.145.mat
+    - Assets/Prefabs/material/Material.145.mat.meta
+    - Assets/Prefabs/material/Material.146 1.mat
+    - Assets/Prefabs/material/Material.146 1.mat.meta
+    - Assets/Prefabs/material/Material.146 2.mat
+    - Assets/Prefabs/material/Material.146 2.mat.meta
+    - Assets/Prefabs/material/Material.146.mat
+    - Assets/Prefabs/material/Material.146.mat.meta
+    - Assets/Prefabs/material/Material.147 1.mat
+    - Assets/Prefabs/material/Material.147 1.mat.meta
+    - Assets/Prefabs/material/Material.147.mat
+    - Assets/Prefabs/material/Material.147.mat.meta
+    - Assets/Prefabs/material/Material.148 1.mat
+    - Assets/Prefabs/material/Material.148 1.mat.meta
+    - Assets/Prefabs/material/Material.148.mat
+    - Assets/Prefabs/material/Material.148.mat.meta
+    - Assets/Prefabs/material/Material.149 1.mat
+    - Assets/Prefabs/material/Material.149 1.mat.meta
+    - Assets/Prefabs/material/Material.149.mat
+    - Assets/Prefabs/material/Material.149.mat.meta
+    - Assets/Prefabs/material/Material.150 1.mat
+    - Assets/Prefabs/material/Material.150 1.mat.meta
+    - Assets/Prefabs/material/Material.150.mat
+    - Assets/Prefabs/material/Material.150.mat.meta
+    - Assets/Prefabs/material/Material.151 1.mat
+    - Assets/Prefabs/material/Material.151 1.mat.meta
+    - Assets/Prefabs/material/Material.151.mat
+    - Assets/Prefabs/material/Material.151.mat.meta
+    - Assets/Prefabs/material/Material.152 1.mat
+    - Assets/Prefabs/material/Material.152 1.mat.meta
+    - Assets/Prefabs/material/Material.152.mat
+    - Assets/Prefabs/material/Material.152.mat.meta
+    - Assets/Prefabs/material/Material.153 1.mat
+    - Assets/Prefabs/material/Material.153 1.mat.meta
+    - Assets/Prefabs/material/Material.153.mat
+    - Assets/Prefabs/material/Material.153.mat.meta
+    - Assets/Prefabs/material/Material.154 1.mat
+    - Assets/Prefabs/material/Material.154 1.mat.meta
+    - Assets/Prefabs/material/Material.154.mat
+    - Assets/Prefabs/material/Material.154.mat.meta
+    - Assets/Prefabs/material/Material.155 1.mat
+    - Assets/Prefabs/material/Material.155 1.mat.meta
+    - Assets/Prefabs/material/Material.155.mat
+    - Assets/Prefabs/material/Material.155.mat.meta
+    - Assets/Prefabs/material/Material.156 1.mat
+    - Assets/Prefabs/material/Material.156 1.mat.meta
+    - Assets/Prefabs/material/Material.156.mat
+    - Assets/Prefabs/material/Material.156.mat.meta
+    - Assets/Prefabs/material/Material.157 1.mat
+    - Assets/Prefabs/material/Material.157 1.mat.meta
+    - Assets/Prefabs/material/Material.157.mat
+    - Assets/Prefabs/material/Material.157.mat.meta
+    - Assets/Prefabs/material/Material.158 1.mat
+    - Assets/Prefabs/material/Material.158 1.mat.meta
+    - Assets/Prefabs/material/Material.158.mat
+    - Assets/Prefabs/material/Material.158.mat.meta
+    - Assets/Prefabs/material/Material.159 1.mat
+    - Assets/Prefabs/material/Material.159 1.mat.meta
+    - Assets/Prefabs/material/Material.159.mat
+    - Assets/Prefabs/material/Material.159.mat.meta
+    - Assets/Prefabs/material/Material.160 1.mat
+    - Assets/Prefabs/material/Material.160 1.mat.meta
+    - Assets/Prefabs/material/Material.160.mat
+    - Assets/Prefabs/material/Material.160.mat.meta
+    - Assets/Prefabs/material/Material.161 1.mat
+    - Assets/Prefabs/material/Material.161 1.mat.meta
+    - Assets/Prefabs/material/Material.161.mat
+    - Assets/Prefabs/material/Material.161.mat.meta
+    - Assets/Prefabs/material/Material.162 1.mat
+    - Assets/Prefabs/material/Material.162 1.mat.meta
+    - Assets/Prefabs/material/Material.162.mat
+    - Assets/Prefabs/material/Material.162.mat.meta
+    - Assets/Prefabs/material/Material.163 1.mat
+    - Assets/Prefabs/material/Material.163 1.mat.meta
+    - Assets/Prefabs/material/Material.163.mat
+    - Assets/Prefabs/material/Material.163.mat.meta
+    - Assets/Prefabs/material/Material.164 1.mat
+    - Assets/Prefabs/material/Material.164 1.mat.meta
+    - Assets/Prefabs/material/Material.164.mat
+    - Assets/Prefabs/material/Material.164.mat.meta
+    - Assets/Prefabs/material/Material.165 1.mat
+    - Assets/Prefabs/material/Material.165 1.mat.meta
+    - Assets/Prefabs/material/Material.165.mat
+    - Assets/Prefabs/material/Material.165.mat.meta
+    - Assets/Prefabs/material/Material.166 1.mat
+    - Assets/Prefabs/material/Material.166 1.mat.meta
+    - Assets/Prefabs/material/Material.166.mat
+    - Assets/Prefabs/material/Material.166.mat.meta
+    - Assets/Prefabs/material/Material.167 1.mat
+    - Assets/Prefabs/material/Material.167 1.mat.meta
+    - Assets/Prefabs/material/Material.167.mat
+    - Assets/Prefabs/material/Material.167.mat.meta
+    - Assets/Prefabs/material/Material.168 1.mat
+    - Assets/Prefabs/material/Material.168 1.mat.meta
+    - Assets/Prefabs/material/Material.168.mat
+    - Assets/Prefabs/material/Material.168.mat.meta
+    - Assets/Prefabs/material/Material.169 1.mat
+    - Assets/Prefabs/material/Material.169 1.mat.meta
+    - Assets/Prefabs/material/Material.169.mat
+    - Assets/Prefabs/material/Material.169.mat.meta
+    - Assets/Prefabs/material/Material.170 1.mat
+    - Assets/Prefabs/material/Material.170 1.mat.meta
+    - Assets/Prefabs/material/Material.170.mat
+    - Assets/Prefabs/material/Material.170.mat.meta
+    - Assets/Prefabs/material/Material.171 1.mat
+    - Assets/Prefabs/material/Material.171 1.mat.meta
+    - Assets/Prefabs/material/Material.171.mat
+    - Assets/Prefabs/material/Material.171.mat.meta
+    - Assets/Prefabs/material/Material.172 1.mat
+    - Assets/Prefabs/material/Material.172 1.mat.meta
+    - Assets/Prefabs/material/Material.172.mat
+    - Assets/Prefabs/material/Material.172.mat.meta
+    - Assets/Prefabs/material/Material.173 1.mat
+    - Assets/Prefabs/material/Material.173 1.mat.meta
+    - Assets/Prefabs/material/Material.173.mat
+    - Assets/Prefabs/material/Material.173.mat.meta
+    - Assets/Prefabs/material/Material.174 1.mat
+    - Assets/Prefabs/material/Material.174 1.mat.meta
+    - Assets/Prefabs/material/Material.174.mat
+    - Assets/Prefabs/material/Material.174.mat.meta
+    - Assets/Prefabs/material/Material.175 1.mat
+    - Assets/Prefabs/material/Material.175 1.mat.meta
+    - Assets/Prefabs/material/Material.175.mat
+    - Assets/Prefabs/material/Material.175.mat.meta
+    - Assets/Prefabs/material/Material.176 1.mat
+    - Assets/Prefabs/material/Material.176 1.mat.meta
+    - Assets/Prefabs/material/Material.176.mat
+    - Assets/Prefabs/material/Material.176.mat.meta
+    - Assets/Prefabs/material/Material.177 1.mat
+    - Assets/Prefabs/material/Material.177 1.mat.meta
+    - Assets/Prefabs/material/Material.177.mat
+    - Assets/Prefabs/material/Material.177.mat.meta
+    - Assets/Prefabs/material/Material.178 1.mat
+    - Assets/Prefabs/material/Material.178 1.mat.meta
+    - Assets/Prefabs/material/Material.178.mat
+    - Assets/Prefabs/material/Material.178.mat.meta
+    - Assets/Prefabs/material/Material.179 1.mat
+    - Assets/Prefabs/material/Material.179 1.mat.meta
+    - Assets/Prefabs/material/Material.179.mat
+    - Assets/Prefabs/material/Material.179.mat.meta
+    - Assets/Prefabs/material/Material.180 1.mat
+    - Assets/Prefabs/material/Material.180 1.mat.meta
+    - Assets/Prefabs/material/Material.180.mat
+    - Assets/Prefabs/material/Material.180.mat.meta
+    - Assets/Prefabs/material/Material.181 1.mat
+    - Assets/Prefabs/material/Material.181 1.mat.meta
+    - Assets/Prefabs/material/Material.181.mat
+    - Assets/Prefabs/material/Material.181.mat.meta
+    - Assets/Prefabs/material/Material.182 1.mat
+    - Assets/Prefabs/material/Material.182 1.mat.meta
+    - Assets/Prefabs/material/Material.182.mat
+    - Assets/Prefabs/material/Material.182.mat.meta
+    - Assets/Prefabs/material/Material.183 1.mat
+    - Assets/Prefabs/material/Material.183 1.mat.meta
+    - Assets/Prefabs/material/Material.183.mat
+    - Assets/Prefabs/material/Material.183.mat.meta
+    - Assets/Prefabs/material/Material.184 1.mat
+    - Assets/Prefabs/material/Material.184 1.mat.meta
+    - Assets/Prefabs/material/Material.184.mat
+    - Assets/Prefabs/material/Material.184.mat.meta
+    - Assets/Prefabs/material/Material.185 1.mat
+    - Assets/Prefabs/material/Material.185 1.mat.meta
+    - Assets/Prefabs/material/Material.185.mat
+    - Assets/Prefabs/material/Material.185.mat.meta
+    - Assets/Prefabs/material/Material.186 1.mat
+    - Assets/Prefabs/material/Material.186 1.mat.meta
+    - Assets/Prefabs/material/Material.186.mat
+    - Assets/Prefabs/material/Material.186.mat.meta
+    - Assets/Prefabs/material/Material.187 1.mat
+    - Assets/Prefabs/material/Material.187 1.mat.meta
+    - Assets/Prefabs/material/Material.187.mat
+    - Assets/Prefabs/material/Material.187.mat.meta
+    - Assets/Prefabs/material/Material.188 1.mat
+    - Assets/Prefabs/material/Material.188 1.mat.meta
+    - Assets/Prefabs/material/Material.188.mat
+    - Assets/Prefabs/material/Material.188.mat.meta
+    - Assets/Prefabs/material/Material.189 1.mat
+    - Assets/Prefabs/material/Material.189 1.mat.meta
+    - Assets/Prefabs/material/Material.189.mat
+    - Assets/Prefabs/material/Material.189.mat.meta
+    - Assets/Prefabs/material/Material.190 1.mat
+    - Assets/Prefabs/material/Material.190 1.mat.meta
+    - Assets/Prefabs/material/Material.190.mat
+    - Assets/Prefabs/material/Material.190.mat.meta
+    - Assets/Prefabs/material/Material.191 1.mat
+    - Assets/Prefabs/material/Material.191 1.mat.meta
+    - Assets/Prefabs/material/Material.191.mat
+    - Assets/Prefabs/material/Material.191.mat.meta
+    - Assets/Prefabs/material/Material.192 1.mat
+    - Assets/Prefabs/material/Material.192 1.mat.meta
+    - Assets/Prefabs/material/Material.192.mat
+    - Assets/Prefabs/material/Material.192.mat.meta
+    - Assets/Prefabs/material/Material.193 1.mat
+    - Assets/Prefabs/material/Material.193 1.mat.meta
+    - Assets/Prefabs/material/Material.193.mat
+    - Assets/Prefabs/material/Material.193.mat.meta
+    - Assets/Prefabs/material/Material.194 1.mat
+    - Assets/Prefabs/material/Material.194 1.mat.meta
+    - Assets/Prefabs/material/Material.194.mat
+    - Assets/Prefabs/material/Material.194.mat.meta
+    - Assets/Prefabs/material/Material.195 1.mat
+    - Assets/Prefabs/material/Material.195 1.mat.meta
+    - Assets/Prefabs/material/Material.195.mat
+    - Assets/Prefabs/material/Material.195.mat.meta
+    - Assets/Prefabs/material/Material.196 1.mat
+    - Assets/Prefabs/material/Material.196 1.mat.meta
+    - Assets/Prefabs/material/Material.196.mat
+    - Assets/Prefabs/material/Material.196.mat.meta
+    - Assets/Prefabs/material/Material.197 1.mat
+    - Assets/Prefabs/material/Material.197 1.mat.meta
+    - Assets/Prefabs/material/Material.197.mat
+    - Assets/Prefabs/material/Material.197.mat.meta
+    - Assets/Prefabs/material/Material.198 1.mat
+    - Assets/Prefabs/material/Material.198 1.mat.meta
+    - Assets/Prefabs/material/Material.198.mat
+    - Assets/Prefabs/material/Material.198.mat.meta
+    - Assets/Prefabs/material/Material.199 1.mat
+    - Assets/Prefabs/material/Material.199 1.mat.meta
+    - Assets/Prefabs/material/Material.199.mat
+    - Assets/Prefabs/material/Material.199.mat.meta
+    - Assets/Prefabs/material/Material.200 1.mat
+    - Assets/Prefabs/material/Material.200 1.mat.meta
+    - Assets/Prefabs/material/Material.200.mat
+    - Assets/Prefabs/material/Material.200.mat.meta
+    - Assets/Prefabs/material/Material.201 1.mat
+    - Assets/Prefabs/material/Material.201 1.mat.meta
+    - Assets/Prefabs/material/Material.201.mat
+    - Assets/Prefabs/material/Material.201.mat.meta
+    - Assets/Prefabs/material/Material.202 1.mat
+    - Assets/Prefabs/material/Material.202 1.mat.meta
+    - Assets/Prefabs/material/Material.202.mat
+    - Assets/Prefabs/material/Material.202.mat.meta
+    - Assets/Prefabs/material/Material.203 1.mat
+    - Assets/Prefabs/material/Material.203 1.mat.meta
+    - Assets/Prefabs/material/Material.203.mat
+    - Assets/Prefabs/material/Material.203.mat.meta
+    - Assets/Prefabs/material/Material.204 1.mat
+    - Assets/Prefabs/material/Material.204 1.mat.meta
+    - Assets/Prefabs/material/Material.204.mat
+    - Assets/Prefabs/material/Material.204.mat.meta
+    - Assets/Prefabs/material/Material.205 1.mat
+    - Assets/Prefabs/material/Material.205 1.mat.meta
+    - Assets/Prefabs/material/Material.205.mat
+    - Assets/Prefabs/material/Material.205.mat.meta
+    - Assets/Prefabs/material/Material.206 1.mat
+    - Assets/Prefabs/material/Material.206 1.mat.meta
+    - Assets/Prefabs/material/Material.206.mat
+    - Assets/Prefabs/material/Material.206.mat.meta
+    - Assets/Prefabs/material/Material.207 1.mat
+    - Assets/Prefabs/material/Material.207 1.mat.meta
+    - Assets/Prefabs/material/Material.207.mat
+    - Assets/Prefabs/material/Material.207.mat.meta
+    - Assets/Prefabs/material/Material.208 1.mat
+    - Assets/Prefabs/material/Material.208 1.mat.meta
+    - Assets/Prefabs/material/Material.208.mat
+    - Assets/Prefabs/material/Material.208.mat.meta
+    - Assets/Prefabs/material/Material.209 1.mat
+    - Assets/Prefabs/material/Material.209 1.mat.meta
+    - Assets/Prefabs/material/Material.209.mat
+    - Assets/Prefabs/material/Material.209.mat.meta
+    - Assets/Prefabs/material/Material.210 1.mat
+    - Assets/Prefabs/material/Material.210 1.mat.meta
+    - Assets/Prefabs/material/Material.210.mat
+    - Assets/Prefabs/material/Material.210.mat.meta
+    - Assets/Prefabs/material/Material.211 1.mat
+    - Assets/Prefabs/material/Material.211 1.mat.meta
+    - Assets/Prefabs/material/Material.211.mat
+    - Assets/Prefabs/material/Material.211.mat.meta
+    - Assets/Prefabs/material/Material.212 1.mat
+    - Assets/Prefabs/material/Material.212 1.mat.meta
+    - Assets/Prefabs/material/Material.212.mat
+    - Assets/Prefabs/material/Material.212.mat.meta
+    - Assets/Prefabs/material/Material.213 1.mat
+    - Assets/Prefabs/material/Material.213 1.mat.meta
+    - Assets/Prefabs/material/Material.213.mat
+    - Assets/Prefabs/material/Material.213.mat.meta
+    - Assets/Prefabs/material/Material.214 1.mat
+    - Assets/Prefabs/material/Material.214 1.mat.meta
+    - Assets/Prefabs/material/Material.214.mat
+    - Assets/Prefabs/material/Material.214.mat.meta
+    - Assets/Prefabs/material/Material.215 1.mat
+    - Assets/Prefabs/material/Material.215 1.mat.meta
+    - Assets/Prefabs/material/Material.215.mat
+    - Assets/Prefabs/material/Material.215.mat.meta
+    - Assets/Prefabs/material/Material.231.mat
+    - Assets/Prefabs/material/Material.231.mat.meta
+    - Assets/Prefabs/mesa1 Variant.prefab
+    - Assets/Prefabs/mesa1 Variant.prefab.meta
+    - Assets/Prefabs/mesa1.fbx.meta
+    - Assets/Prefabs/mesa2 Variant.prefab
+    - Assets/Prefabs/mesa2 Variant.prefab.meta
+    - Assets/Prefabs/mesa2.fbx.meta
+    - Assets/Prefabs/mesa3 Variant.prefab
+    - Assets/Prefabs/mesa3 Variant.prefab.meta
+    - Assets/Prefabs/mesa3.fbx.meta
+    - Assets/Prefabs/parte2nivel1texturizalol.fbx.meta
+    - Assets/Prefabs/parte3modeloo.fbx.meta
+    - Assets/Prefabs/textura.meta
+    - Assets/Prefabs/textura/Materials.meta
+    - Assets/Prefabs/textura/Materials/cardboard texture across.mat
+    - Assets/Prefabs/textura/Materials/cardboard texture across.mat.meta
+    - Assets/Prefabs/textura/Materials/textura papel.mat
+    - Assets/Prefabs/textura/Materials/textura papel.mat.meta
+    - Assets/Prefabs/textura/TexturesCom_Paper_Cardboard_1K_albedo.tif.meta
+    - Assets/Prefabs/textura/cardboard texture across - copia.jpg.meta
+    - Assets/Prefabs/textura/cardboard texture across.jpg.meta
+    - Assets/Prefabs/textura/carton.PNG.meta
+    - Assets/Prefabs/textura/textura papel.jpg.meta
+    - Assets/Scenes/MainMenu.unity
+    - Assets/Scenes/Nivel_1.1.unity
+    - Assets/Scenes/Nivel_1.1.unity.meta
+    - Assets/Scenes/Nivel_1.2.unity
+    - Assets/Scenes/Nivel_1.2.unity.meta
+    - Assets/Scenes/Nivel_2.1.meta
+    - Assets/Scenes/Nivel_2.1.unity
+    - Assets/Scenes/Nivel_2.1/NavMesh.asset.meta
+    - Assets/Scenes/fin.unity
+    - Assets/Scenes/fin.unity.meta
+    - Assets/Scenes/tutorial.unity
+    - Assets/Scenes/tutorial.unity.meta
+    - Assets/Scripts/Admin2.cs.meta
+    - Assets/Scripts/Enemies/hpe.cs.meta
+    - Assets/Scripts/Player/Attack_player.cs.meta
+    - Assets/Scripts/cam_mov.cs.meta
+    - Assets/Scripts/exit.cs
+    - Assets/Scripts/exit.cs.meta
+    - Assets/Sprites/Enemy.meta
+    - Assets/Sprites/Enemy/Attack.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0001.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0002.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0003.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0004.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0005.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0006.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0007.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0008.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0009.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0010.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0011.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0012.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0013.png.meta
+    - Assets/Sprites/Enemy/Attack/caja ataque0014.png.meta
+    - Assets/Sprites/Enemy/Death.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0001.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0002.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0003.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0004.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0005.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0006.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0007.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0008.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0009.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0010.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0011.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0012.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0013.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0014.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0015.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0016.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0017.png.meta
+    - Assets/Sprites/Enemy/Death/caja muerte0018.png.meta
+    - Assets/Sprites/Enemy/Idle.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0001.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0002.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0003.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0004.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0005.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0006.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0007.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0008.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0009.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0010.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0011.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0012.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0013.png.meta
+    - Assets/Sprites/Enemy/Idle/caja idle0014.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0004.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0005.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0006.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0007.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0008.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0009.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0010.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0011.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0012.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0013.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0014.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0015.png.meta
+    - Assets/Sprites/Player/Attack/ataque pibe0016.png.meta
+    - Assets/Sprites/Player/Hit/pibe pegado0001.png.meta
+    - Assets/Sprites/Player/Hit/pibe pegado0002.png.meta
+    - Assets/Sprites/Player/Hit/pibe pegado0003.png.meta
+    - Assets/Sprites/Player/Hit/pibe pegado0004.png.meta
+    - Assets/Sprites/Player/Hit/pibe pegado0005.png.meta
+    - Assets/Sprites/Player/Hit/pibe pegado0006.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0001.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0002.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0003.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0004.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0005.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0006.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0007.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0008.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0009.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0010.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0011.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0012.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0013.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0014.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0015.png.meta
+    - Assets/Sprites/Player/Idle/Jidle0016.png.meta
+    - Assets/Sprites/Player/Jump/Piba salto0001.png.meta
+    - Assets/Sprites/Player/Jump/Piba salto0002.png.meta
+    - Assets/Sprites/Player/Jump/Piba salto0003.png.meta
+    - Assets/Sprites/Player/Jump/Piba salto0004.png.meta
+    - Assets/Sprites/Player/Jump/Piba salto0005.png.meta
+    - Assets/Sprites/Player/Jump/Piba salto0006.png.meta
+    - Assets/Sprites/Player/Land.meta
+    - Assets/Sprites/Player/Land/Piba salto0012.png.meta
+    - Assets/Sprites/Player/Land/Piba salto0013.png.meta
+    - Assets/Sprites/Player/Land/Piba salto0014.png.meta
+    - Assets/Sprites/Player/Land/Piba salto0015.png.meta
+    - Assets/Sprites/Player/Land/Piba salto0016.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0001.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0002.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0003.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0004.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0005.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0006.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0007.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0008.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0009.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0010.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0011.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0012.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0013.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0014.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0015.png.meta
+    - Assets/Sprites/Player/Run/jCorrer0016.png.meta
+    - Assets/Sprites/Player/death.meta
+    - Assets/Sprites/Player/death/Pibe MUerte0001.png.meta
+    - Assets/Sprites/Player/death/Pibe MUerte0002.png.meta
+    - Assets/Sprites/Player/death/Pibe MUerte0003.png.meta
+    - Assets/Sprites/Player/death/Pibe MUerte0004.png.meta
+    - Assets/Sprites/Player/falling.meta
+    - Assets/Sprites/Player/falling/Piba salto0007.png.meta
+    - Assets/Sprites/Player/falling/Piba salto0008.png.meta
+    - Assets/Sprites/Player/falling/Piba salto0009.png.meta
+    - Assets/Sprites/Player/falling/Piba salto0010.png.meta
+    - Assets/Sprites/Player/falling/Piba salto0011.png.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
