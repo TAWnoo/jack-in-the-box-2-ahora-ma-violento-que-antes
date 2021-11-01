@@ -9,7 +9,7 @@ public class hpe : MonoBehaviour
 
     void Start()
     {
-        vidae = 4;
+        
     }
 
 
@@ -21,10 +21,11 @@ public class hpe : MonoBehaviour
     private void OnCollisionEnter(Collision toc)
     {
         //Debug.Log("a");
+        Debug.Log("c");
 
-        if (toc.gameObject.tag == "weapon")
+        if (toc.gameObject.tag == "Weapon")
         {
-            
+            Debug.Log("b");
 
             if (vidae >= 1)
             {

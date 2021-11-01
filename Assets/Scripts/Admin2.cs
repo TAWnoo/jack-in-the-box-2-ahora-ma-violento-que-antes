@@ -38,5 +38,12 @@ public class Admin2 : MonoBehaviour
         SceneManager.LoadScene("fin");
 
     }
+
+    public void cambioescena4()
+    {
+
+        SceneManager.LoadScene("Nivel_2.1");
+
+    }
 }
 
