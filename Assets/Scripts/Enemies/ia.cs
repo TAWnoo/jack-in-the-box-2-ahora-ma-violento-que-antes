@@ -7,12 +7,14 @@ public class ia : MonoBehaviour
 
     public UnityEngine.AI.NavMeshAgent enemigo;
     public Transform target;
+    
 
     void Start()
     {
         enemigo = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
+    
 
     void Update()
     {
