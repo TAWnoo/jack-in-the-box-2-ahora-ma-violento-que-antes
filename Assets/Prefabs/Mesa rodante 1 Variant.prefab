@@ -27,8 +27,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.2172585, y: 5.749641, z: 4.5203667}
-  m_Center: {x: 11.589008, y: 4.693362, z: 2.4571}
+  m_Size: {x: 4.2172585, y: 8.543455, z: 4.5203667}
+  m_Center: {x: 11.589008, y: 6.090269, z: 2.4571}
 --- !u!1001 &873611821833613083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80,9 +80,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6577237425059042219, guid: 98c8eea420e5f4d40935255f337f8300, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -2914413575082383075, guid: 98c8eea420e5f4d40935255f337f8300, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 98c8eea420e5f4d40935255f337f8300, type: 3}
       propertyPath: m_Name
       value: Mesa rodante 1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 98c8eea420e5f4d40935255f337f8300, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5245042011116262203, guid: 98c8eea420e5f4d40935255f337f8300, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7743480366618694112, guid: 98c8eea420e5f4d40935255f337f8300, type: 3}
       propertyPath: m_Materials.Array.data[0]

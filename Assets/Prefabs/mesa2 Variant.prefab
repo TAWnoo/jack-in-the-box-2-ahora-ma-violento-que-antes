@@ -27,8 +27,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2954476, y: 9.712684, z: 1.1339643}
-  m_Center: {x: 12.040682, y: 6.642575, z: 32.60552}
+  m_Size: {x: 3.2954476, y: 11.60636, z: 1.1339643}
+  m_Center: {x: 12.040682, y: 7.5894094, z: 32.60552}
 --- !u!65 &6296121940935064378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40,8 +40,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.1589646, y: 4.555599, z: 13.40154}
-  m_Center: {x: 12.11064, y: 4.108716, z: 39.72951}
+  m_Size: {x: 6.1589646, y: 7.650564, z: 13.40154}
+  m_Center: {x: 12.11064, y: 5.6561995, z: 39.72951}
 --- !u!65 &6766911123974071996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53,8 +53,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.720253, y: 8.518712, z: 0.97930884}
-  m_Center: {x: 11.96509, y: 5.984691, z: 46.85663}
+  m_Size: {x: 3.720252, y: 11.027688, z: 0.97930884}
+  m_Center: {x: 11.96509, y: 7.239181, z: 46.85663}
 --- !u!1001 &1965917547751098581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106,6 +106,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7136622550182105865, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -2087853104595106310, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -114,9 +118,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 6f80ad595053e654789c500b7e94d4d4, type: 2}
+    - target: {fileID: -466329591000292508, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
       propertyPath: m_Name
       value: mesa2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6745302439343835087, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -138,6 +150,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 464e08bb4b8aad545b4a566ea5fa6078, type: 2}
+    - target: {fileID: 7052025465689282730, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 188b85adf514d134a956acfd8e2449c5, type: 3}
 --- !u!1 &1695955221817357700 stripped
