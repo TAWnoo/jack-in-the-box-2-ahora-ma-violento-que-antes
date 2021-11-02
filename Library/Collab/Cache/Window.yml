@@ -14,78 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Animation/Player/Iddle.anim
-    - Assets/Animation/Player/Iddle.anim.meta
-    - Assets/Animation/Player/Idle.anim
-    - Assets/Animation/Player/Idle.anim.meta
-    - Assets/Animation/Player/Run.anim
-    - Assets/Animation/Player/Run.anim.meta
-    - Assets/Sprites/Player/Idle/Jidle0001.png
-    - Assets/Sprites/Player/Idle/Jidle0001.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0002.png
-    - Assets/Sprites/Player/Idle/Jidle0002.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0003.png
-    - Assets/Sprites/Player/Idle/Jidle0003.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0004.png
-    - Assets/Sprites/Player/Idle/Jidle0004.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0005.png
-    - Assets/Sprites/Player/Idle/Jidle0005.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0006.png
-    - Assets/Sprites/Player/Idle/Jidle0006.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0007.png
-    - Assets/Sprites/Player/Idle/Jidle0007.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0008.png
-    - Assets/Sprites/Player/Idle/Jidle0008.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0009.png
-    - Assets/Sprites/Player/Idle/Jidle0009.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0010.png
-    - Assets/Sprites/Player/Idle/Jidle0010.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0011.png
-    - Assets/Sprites/Player/Idle/Jidle0011.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0012.png
-    - Assets/Sprites/Player/Idle/Jidle0012.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0013.png
-    - Assets/Sprites/Player/Idle/Jidle0013.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0014.png
-    - Assets/Sprites/Player/Idle/Jidle0014.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0015.png
-    - Assets/Sprites/Player/Idle/Jidle0015.png.meta
-    - Assets/Sprites/Player/Idle/Jidle0016.png
-    - Assets/Sprites/Player/Idle/Jidle0016.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0001.png
-    - Assets/Sprites/Player/Run/jCorrer0001.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0002.png
-    - Assets/Sprites/Player/Run/jCorrer0002.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0003.png
-    - Assets/Sprites/Player/Run/jCorrer0003.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0004.png
-    - Assets/Sprites/Player/Run/jCorrer0004.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0005.png
-    - Assets/Sprites/Player/Run/jCorrer0005.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0006.png
-    - Assets/Sprites/Player/Run/jCorrer0006.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0007.png
-    - Assets/Sprites/Player/Run/jCorrer0007.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0008.png
-    - Assets/Sprites/Player/Run/jCorrer0008.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0009.png
-    - Assets/Sprites/Player/Run/jCorrer0009.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0010.png
-    - Assets/Sprites/Player/Run/jCorrer0010.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0011.png
-    - Assets/Sprites/Player/Run/jCorrer0011.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0012.png
-    - Assets/Sprites/Player/Run/jCorrer0012.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0013.png
-    - Assets/Sprites/Player/Run/jCorrer0013.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0014.png
-    - Assets/Sprites/Player/Run/jCorrer0014.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0015.png
-    - Assets/Sprites/Player/Run/jCorrer0015.png.meta
-    - Assets/Sprites/Player/Run/jCorrer0016.png
-    - Assets/Sprites/Player/Run/jCorrer0016.png.meta
     - 
-    m_Values: 0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+    m_Values: 01
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

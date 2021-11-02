@@ -18,10 +18,9 @@ public class hpe : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision toc)
+    private IEnumerator OnCollisionEnter(Collision toc)
     {
-        //Debug.Log("a");
-        Debug.Log("c");
+        
 
         if (toc.gameObject.tag == "Weapon")
         {
@@ -36,6 +35,7 @@ public class hpe : MonoBehaviour
             {
                 
                 Debug.Log("a");
+                yield return new WaitForSeconds(2);
                 Victory();
             }
         }
@@ -44,6 +44,7 @@ public class hpe : MonoBehaviour
 
     void Victory()
     {
+        
         SceneManager.LoadScene("fin");
     }
 }
