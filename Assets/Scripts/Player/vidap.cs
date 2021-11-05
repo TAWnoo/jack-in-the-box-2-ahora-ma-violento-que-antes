@@ -22,7 +22,7 @@ public class vidap : MonoBehaviour
     {
 
 
-        if (toc.gameObject.tag == "Weapon")
+        if (toc.gameObject.tag == "arma")
         {
             Debug.Log("b");
 
@@ -35,7 +35,7 @@ public class vidap : MonoBehaviour
             {
 
                 Debug.Log("a");
-                yield return new WaitForSeconds(2);
+                yield return new WaitForSeconds(3);
                 derota();
             }
         }

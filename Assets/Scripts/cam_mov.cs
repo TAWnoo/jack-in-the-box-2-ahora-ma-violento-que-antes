@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class cam_mov : MonoBehaviour
 {
-    public int speed;
+    public float speed;
 
 
     void Start()
@@ -15,7 +15,14 @@ public class cam_mov : MonoBehaviour
 
     void Update()
     {
-
+        if (17 > speed)
+        {
+            speed += Time.deltaTime;
+        }
+        else
+        {
+            speed = 17;
+        }
         transform.Translate(speed * Time.deltaTime, 0, 0);
 
     }

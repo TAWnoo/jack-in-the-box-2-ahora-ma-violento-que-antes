@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\cam_mov.cs" />
     <Compile Include="Assets\Scripts\Admin2.cs" />
     <Compile Include="Assets\Scripts\Player\vidap.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ataque.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
