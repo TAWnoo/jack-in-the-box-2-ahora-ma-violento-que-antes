@@ -54,9 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\ia.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ataque.cs" />
     <Compile Include="Assets\Scripts\exit.cs" />
     <Compile Include="Assets\Scripts\Kill.cs" />
-    <Compile Include="Assets\Scripts\Enemies\animations.cs" />
     <Compile Include="Assets\Scripts\Player\Attack_player.cs" />
     <Compile Include="Assets\Scripts\Enemies\enemigos.cs" />
     <Compile Include="Assets\Scripts\Enemies\hpe.cs" />
@@ -64,7 +64,6 @@
     <Compile Include="Assets\Scripts\cam_mov.cs" />
     <Compile Include="Assets\Scripts\Admin2.cs" />
     <Compile Include="Assets\Scripts\Player\vidap.cs" />
-    <Compile Include="Assets\Scripts\Enemies\ataque.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

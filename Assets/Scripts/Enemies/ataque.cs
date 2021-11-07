@@ -8,10 +8,14 @@ public class ataque : MonoBehaviour
     public Animator anim;
     public GameObject arma;
     public Transform puntoArma;
-    public bool Ataca;
+    public bool ataca;
+    public Transform Diente;
+    public LayerMask playerLayer;
+    public GameObject clon;
 
 
     
+
     void Start()
     {
         
@@ -20,19 +24,24 @@ public class ataque : MonoBehaviour
     
     void Update()
     {
-    
+        
+    }
 
-            Ataca = Physics.CheckSphere(diente.position, 0.2f, groundLayer);
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(1);
+        ataca = Physics.CheckSphere(Diente.position, 0.2f, playerLayer);
 
-            GameObject clon;
+        if (ataca)
+        {
             clon = Instantiate(arma, puntoArma.position, Quaternion.identity);
             anim.SetBool("Attack", true);
             Destroy(clon, 1);
 
-        
-        
-        
+        }
+        else
+        {
             anim.SetBool("Attack", false);
-        
+        }
     }
 }
