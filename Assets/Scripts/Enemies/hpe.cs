@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class hpe : MonoBehaviour
 {
     public int vidae;
+    public Animator anim;
 
     void Start()
     {
@@ -25,19 +26,25 @@ public class hpe : MonoBehaviour
         if (toc.gameObject.tag == "Weapon")
         {
             Debug.Log("b");
+            anim.SetBool("Hit", true);
 
             if (vidae >= 1)
             {
                 vidae -= 1;
+                anim.SetBool("Death", false);
             }
 
             else
             {
-                
+                anim.SetBool("Death", true);
                 Debug.Log("a");
                 yield return new WaitForSeconds(2);
                 Victory();
             }
+        }
+        else
+        {
+            anim.SetBool("Hit", false);
         }
 
     }

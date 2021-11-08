@@ -5,13 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Admin2 : MonoBehaviour
 {
-
-    void Start()
-    {
-
-    }
-
-
+    
     void Update()
     {
 
@@ -42,5 +36,13 @@ public class Admin2 : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel_2.1");
     }
+
+    public void cambioescena5()
+    {
+        SceneManager.LoadScene("tutorial");
+    }
+
+    
+
 }
 

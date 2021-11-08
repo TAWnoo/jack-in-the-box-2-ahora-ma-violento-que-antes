@@ -8,6 +8,7 @@ public class Attack_player : MonoBehaviour
     public Animator anim;
     public GameObject arma;
     public Transform puntoArma;
+    public GameObject clon;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class Attack_player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.M))
         {
-            GameObject clon;
+            
             clon = Instantiate(arma, puntoArma.position, Quaternion.identity);
             anim.SetBool("Attack", true);
             Destroy(clon, 1);
@@ -29,6 +30,14 @@ public class Attack_player : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.M))
         {
             anim.SetBool("Attack", false);
+        }
+        if(Input.GetKeyDown(KeyCode.N))
+        {
+            anim.SetBool("Hit", true);
+        }
+        else if (Input.GetKeyUp(KeyCode.N))
+        {
+            anim.SetBool("Hit", false);
         }
 
     }
