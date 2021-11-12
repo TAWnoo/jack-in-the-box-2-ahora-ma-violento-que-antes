@@ -11,17 +11,11 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float gravity;
     float hInput;
-    
-
     public Transform groundCheck;
     bool isGrounded;
     public LayerMask groundLayer;
     public bool canSecondJump = true;
     public Animator anim;
-
-
-
-
     public SpriteRenderer sr;
 
     void Start()
@@ -34,12 +28,8 @@ public class PlayerController : MonoBehaviour
     {
         hInput = Input.GetAxis("Horizontal");
         direction.x = hInput * speed;
-
         anim.SetFloat("Speed", Mathf.Abs(hInput));
-
         controller.Move(direction * Time.deltaTime);
-
-        
         isGrounded = Physics.CheckSphere(groundCheck.position, 0.2f, groundLayer);
         if (isGrounded)
         {
@@ -62,9 +52,7 @@ public class PlayerController : MonoBehaviour
                anim.SetBool("Jumps", true);
                canSecondJump = false;
             }
-     
         }
-
 
         if (!sr.flipX && hInput < 0)
         {
