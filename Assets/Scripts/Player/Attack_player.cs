@@ -10,10 +10,15 @@ public class Attack_player : MonoBehaviour
     public Transform puntoArma;
     public GameObject clon;
 
+    int hit_quant;
+    bool can_hit;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        hit_quant = 0;
+        can_hit = true;
     }
 
     // Update is called once per frame
@@ -21,27 +26,39 @@ public class Attack_player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.M))
         {
-            
             clon = Instantiate(arma, puntoArma.position, Quaternion.identity);
-            anim.SetBool("Attack", true);
+            start_Combo();
             Destroy(clon, 1);
-
         }
-        else if (Input.GetKeyUp(KeyCode.M))
-        {
-            anim.SetBool("Attack", false);
-        }
-        if(Input.GetKeyDown(KeyCode.N))
-        {
-            anim.SetBool("Hit", true);
-        }
-        else if (Input.GetKeyUp(KeyCode.N))
-        {
-            anim.SetBool("Hit", false);
-        }
+        
 
     }
 
+    void start_Combo()
+    {
+        if (can_hit)
+        {
+            hit_quant++;
+        }
 
+        if (hit_quant == 1)
+        {
+            anim.SetInteger("Attack", 1);
+        }
+    }
     
+    public void check_Combo()
+    {
+        can_hit = false;
+
+        if ()
+
+
+
+
+
+
+
+    }
+
 }
