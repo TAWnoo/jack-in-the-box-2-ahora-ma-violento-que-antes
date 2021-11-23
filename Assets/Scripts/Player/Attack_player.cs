@@ -51,13 +51,34 @@ public class Attack_player : MonoBehaviour
     {
         can_hit = false;
 
-        if ()
-
-
-
-
-
-
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_1") && hit_quant == 1)
+        {
+            anim.SetInteger("Attack", 0);
+            can_hit = true;
+            hit_quant = 0;
+        }
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_1") && hit_quant >= 2)
+        {
+            anim.SetInteger("Attack", 2);
+            can_hit = true;
+        }
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_2") && hit_quant == 2)
+        {
+            anim.SetInteger("Attack", 0);
+            can_hit = true;
+            hit_quant = 0;
+        }
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_2") && hit_quant >= 3)
+        {
+            anim.SetInteger("Attack", 3);
+            can_hit = true;
+        }
+        else if(anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_3"))
+        {
+            anim.SetInteger("Attack", 0);
+            can_hit = true;
+            hit_quant = 0;
+        }
 
     }
 

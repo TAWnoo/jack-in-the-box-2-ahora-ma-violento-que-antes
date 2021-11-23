@@ -1,24 +1,91 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+
 
 public class ia : MonoBehaviour
 {
 
-    public UnityEngine.AI.NavMeshAgent enemigo;
+    string currentState;
     public Transform target;
-    
+    float distance;
+    public float chaseDist;
+    public Animator anim;
+    public float speed;
+    public float atckDist;
+    public int health;
+    public int maxHealth;
+
+
 
     void Start()
     {
-        enemigo = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        
+        currentState = "IdleState";
+        target = GameObject.FindGameObjectWithTag("player").transform;
+        health = maxHealth;
     }
 
     
 
     void Update()
     {
-        enemigo.destination = target.position;
+        distance = Vector3.Distance(transform.position, target.position);
+
+        if (currentState == "IdleState")
+        {
+            if(distance < chaseDist)
+            {
+                currentState = "ChaseState";
+
+            }
+
+        }
+        else if (currentState == "ChaseState")
+        {
+            anim.SetBool("Chase", true);
+            anim.SetBool("Attack", false);
+
+            if (  distance < atckDist )
+            {
+                currentState = "AtackState";
+            }
+
+            if (target.position.x > transform.position.x)
+            {
+                //derecha
+                transform.Translate(transform.right * speed * Time.deltaTime);
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+            if (target.position.x < transform.position.x)
+            {
+                //izquierda
+                transform.Translate(-transform.right * speed * Time.deltaTime);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+        }
+        else if (currentState == "AttackState")
+        {
+            anim.SetBool("Attack", true);
+            if(distance > atckDist)
+            {
+                currentState = "ChaseState";
+            }
+        }
+    }
+
+    public void takeDamage(int damage)
+    {
+        health -= damage;
+
+        if (health < 1)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+
     }
 }
