@@ -978,7 +978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324340813}
   m_LocalRotation: {x: 0.04102916, y: -0, z: -0, w: 0.999158}
-  m_LocalPosition: {x: -29.2, y: 12.1, z: -18.134441}
+  m_LocalPosition: {x: -29.2, y: 14.1, z: -18.134441}
   m_LocalScale: {x: 1.9398386, y: 2.5830739, z: 26.154793}
   m_Children:
   - {fileID: 1250644785}
@@ -6286,7 +6286,7 @@ GameObject:
   - component: {fileID: 1818860108}
   - component: {fileID: 1818860107}
   - component: {fileID: 1818860106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6304,8 +6304,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 3.9615498, z: 1}
-  m_Center: {x: -0.0000000221142, y: 1.4807748, z: 1.167986e-14}
+  m_Size: {x: 1, y: 4.603722, z: 1}
+  m_Center: {x: -0.000000026909369, y: 1.801861, z: 1.4212481e-14}
 --- !u!23 &1818860107
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6536,7 +6536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865231077}
   m_LocalRotation: {x: 0, y: 0, z: 0.34832662, w: 0.9373732}
-  m_LocalPosition: {x: -5.0791, y: 0, z: 0}
+  m_LocalPosition: {x: -6.3, y: 0.2, z: 0.241}
   m_LocalScale: {x: 12.317136, y: 20.89709, z: 0.032116}
   m_Children: []
   m_Father: {fileID: 324340814}
