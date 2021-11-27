@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public Animator anim;
     public SpriteRenderer sr;
 
+    
+
     void Start()
     {
 
@@ -62,7 +64,7 @@ public class PlayerController : MonoBehaviour
         {
             sr.flipX = false;
         }
-
+        
     }
 
     
