@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animation/Player/Attack1.anim
+    - Assets/Animation/Player/new Attack2.anim
     - 
-    m_Values: 01
+    m_Values: 000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
