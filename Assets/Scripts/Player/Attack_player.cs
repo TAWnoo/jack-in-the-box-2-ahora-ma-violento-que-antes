@@ -2,84 +2,145 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+ 
 public class Attack_player : MonoBehaviour
 {
 
     public Animator anim;
-    public GameObject arma;
-    public Transform puntoArma;
-    public GameObject clon;
+    //public GameObject arma;
+    //public Transform puntoArma;
+    //public GameObject clon;
 
-    int hit_quant;
-    bool can_hit;
+    //int hit_quant;
+    //bool can_hit;
 
 
-    // Start is called before the first frame update
-    void Start()
+    //// Start is called before the first frame update
+    //void Start()
+    //{
+    //    hit_quant = 0;
+    //    can_hit = true;
+    //}
+
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.M))
+    //    {
+    //        clon = Instantiate(arma, puntoArma.position, Quaternion.identity);
+    //        start_Combo();
+    //        Destroy(clon, 1);
+    //    }
+
+
+    //}
+
+    //void start_Combo()
+    //{
+    //    if (can_hit)
+    //    {
+    //        hit_quant++;
+    //    }
+
+    //    if (hit_quant == 1)
+    //    {
+    //        anim.SetInteger("Attack", 1);
+    //    }
+    //}
+
+    //public void check_Combo()
+    //{
+    //    can_hit = false;
+    //    if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_1") && hit_quant == 1)
+    //    {
+    //        anim.SetInteger("Attack", 0);
+    //        can_hit = true;
+    //        hit_quant = 0;
+    //    }
+    //    else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_1") && hit_quant >= 2)
+    //    {
+    //        anim.SetInteger("Attack", 2);
+    //        can_hit = true;
+    //    }
+    //    else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_2") && hit_quant == 2)
+    //    {
+    //        anim.SetInteger("Attack", 0);
+    //        can_hit = true;
+    //        hit_quant = 0;
+    //    }
+    //    else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_2") && hit_quant >= 3)
+    //    {
+    //        anim.SetInteger("Attack", 3);
+    //        can_hit = true;
+    //    }
+    //    else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_3"))
+    //    {
+    //        anim.SetInteger("Attack", 0);
+    //        can_hit = true;
+    //        hit_quant = 0;
+    //    }
+    //}
+
+    public bool canRecieveInput;
+    public bool inputRecieved;
+
+    public static Attack_player instance;
+
+    private void Awake()
     {
-        hit_quant = 0;
-        can_hit = true;
+
+        instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
+    {
+        
+    }
+
+    private void Update()
+    {
+        
+    }
+    public void Attack()
     {
         if (Input.GetKeyDown(KeyCode.M))
         {
-            clon = Instantiate(arma, puntoArma.position, Quaternion.identity);
-            start_Combo();
-            Destroy(clon, 1);
+            if (canRecieveInput)
+            {
+                inputRecieved = true;
+                canRecieveInput = false;
+            }
+            else
+            {
+                return;
+            }
         }
-        
-
     }
-
-    void start_Combo()
+    public void InputManager()
     {
-        if (can_hit)
+        if (!canRecieveInput)
         {
-            hit_quant++;
-        }
+            canRecieveInput = true;
 
-        if (hit_quant == 1)
+        }
+        else
         {
-            anim.SetInteger("Attack", 1);
+            canRecieveInput = false;
         }
     }
-    
-    public void check_Combo()
+
+    public void Stop1()
     {
-        can_hit = false;
-
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_1") && hit_quant == 1)
-        {
-            anim.SetInteger("Attack", 0);
-            can_hit = true;
-            hit_quant = 0;
-        }
-        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_1") && hit_quant >= 2)
-        {
-            anim.SetInteger("Attack", 2);
-            can_hit = true;
-        }
-        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_2") && hit_quant == 2)
-        {
-            anim.SetInteger("Attack", 0);
-            can_hit = true;
-            hit_quant = 0;
-        }
-        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_2") && hit_quant >= 3)
-        {
-            anim.SetInteger("Attack", 3);
-            can_hit = true;
-        }
-        else if(anim.GetCurrentAnimatorStateInfo(0).IsName("Attack_3"))
-        {
-            anim.SetInteger("Attack", 0);
-            can_hit = true;
-            hit_quant = 0;
-        }
-
+        anim.SetBool("Attack 1", false);
     }
 
+    public void Stop2()
+    {
+        anim.SetBool("Attack 2", false);
+    }
+
+    public void Stop3()
+    {
+        anim.SetBool("Attack 3", false);
+    }
 }

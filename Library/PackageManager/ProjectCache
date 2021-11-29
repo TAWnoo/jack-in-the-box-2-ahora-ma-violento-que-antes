@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637714173624418980
-    m_Hash: 3623310934
+      ticks: 637738010151910281
+    m_Hash: 20013344
   m_LockFileStatus:
     m_FilePath: C:/proyecto/jack-in-the-box-2-ahora-ma-violento-que-antes/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637714173624418980
-    m_Hash: 2303839062
+      ticks: 637738010152040278
+    m_Hash: 845352669
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
