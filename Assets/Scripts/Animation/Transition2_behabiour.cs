@@ -13,11 +13,12 @@ public class Transition2_behabiour : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.SetBool("Attack 3", false);
+        //animator.SetBool("Attack 3", false);
 
         if (Input.GetKeyDown(KeyCode.M))
         {
-            animator.SetBool("Attack 3", true);
+            //animator.SetBool("Attack 3", true);
+            animator.SetTrigger("Attack 3");
             Attack_player.instance.InputManager();
             Attack_player.instance.inputRecieved = false;
         }

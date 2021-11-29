@@ -13,11 +13,12 @@ public class IdleBehabiour : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.SetBool("Attack 1", false);
+        //animator.SetBool("Attack 1", false);
 
         if (Input.GetKeyDown(KeyCode.M))
         {
-            animator.SetBool("Attack 1", true);
+            //animator.SetBool("Attack 1", true);
+            animator.SetTrigger("Attack 1");
             Attack_player.instance.InputManager();
             Attack_player.instance.inputRecieved = false;
         }

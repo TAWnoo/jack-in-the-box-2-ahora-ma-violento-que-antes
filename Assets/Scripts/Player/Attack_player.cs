@@ -129,18 +129,18 @@ public class Attack_player : MonoBehaviour
         }
     }
 
-    public void Stop1()
-    {
-        anim.SetBool("Attack 1", false);
-    }
+    //public void Stop1()
+    //{
+    //    anim.SetBool("Attack 1", false);
+    //}
 
-    public void Stop2()
-    {
-        anim.SetBool("Attack 2", false);
-    }
+    //public void Stop2()
+    //{
+    //    anim.SetBool("Attack 2", false);
+    //}
 
-    public void Stop3()
-    {
-        anim.SetBool("Attack 3", false);
-    }
+    //public void Stop3()
+    //{
+    //    anim.SetBool("Attack 3", false);
+    //}
 }
