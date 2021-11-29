@@ -15,7 +15,7 @@ public class ia : MonoBehaviour
     public float atckDist;
     public int health;
     public int maxHealth;
-
+    
 
 
     void Start()

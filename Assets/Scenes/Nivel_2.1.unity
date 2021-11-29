@@ -703,7 +703,7 @@ MonoBehaviour:
   chaseDist: 1000
   anim: {fileID: 561983202}
   speed: 10
-  atckDist: 10
+  atckDist: 15
   health: 0
   maxHealth: 100
 --- !u!54 &561983199
