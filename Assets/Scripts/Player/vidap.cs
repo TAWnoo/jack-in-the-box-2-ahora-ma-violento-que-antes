@@ -2,20 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class vidap : MonoBehaviour
 {
     public int hpj;
+    //private temblor_canara temcam;
 
     void Start()
     {
-
+        //temcam = GameObject.FindGameObjectsWithTag("tiembla").GetComponent<temblor_canara>();
     }
 
 
     void Update()
     {
-
+       // temcam.camtiembla();
     }
 
     private IEnumerator OnCollisionEnter(Collision toc)

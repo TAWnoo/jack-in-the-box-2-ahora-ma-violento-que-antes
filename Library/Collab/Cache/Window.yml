@@ -14,29 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Animation/Player.controller
-    - Assets/Animation/Player/transition 1.anim
-    - Assets/Animation/Player/transition 1.anim.meta
-    - Assets/Animation/Player/transition 2.anim
-    - Assets/Animation/Player/transition 2.anim.meta
-    - Assets/Sprites/Player/Transition 1/1.jpg
-    - Assets/Sprites/Player/Transition 1/1.jpg.meta
-    - Assets/Sprites/Player/Transition 1/1.png
-    - Assets/Sprites/Player/Transition 1/1.png.meta
-    - Assets/Sprites/Player/Transition 1/2.jpg
-    - Assets/Sprites/Player/Transition 1/2.jpg.meta
-    - Assets/Sprites/Player/Transition 1/2.png
-    - Assets/Sprites/Player/Transition 1/2.png.meta
-    - Assets/Sprites/Player/Transition 2/1.jpg
-    - Assets/Sprites/Player/Transition 2/1.jpg.meta
-    - Assets/Sprites/Player/Transition 2/1.png
-    - Assets/Sprites/Player/Transition 2/1.png.meta
-    - Assets/Sprites/Player/Transition 2/2.jpg
-    - Assets/Sprites/Player/Transition 2/2.jpg.meta
-    - Assets/Sprites/Player/Transition 2/2.png
-    - Assets/Sprites/Player/Transition 2/2.png.meta
+    - Assets/Animation/camara/Main Camera.controller
+    - Assets/Animation/camara/camaratemblor.anim
+    - Assets/Scenes/Nivel_2.1.unity
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 01010101010101010101010101010101010101010101
+    m_Values: 0101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

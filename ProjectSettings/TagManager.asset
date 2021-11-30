@@ -9,6 +9,7 @@ TagManager:
   - enemigo
   - hithit
   - arma
+  - tiembla
   layers:
   - Default
   - TransparentFX
