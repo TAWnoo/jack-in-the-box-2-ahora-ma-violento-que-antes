@@ -16,7 +16,7 @@ public class ia : MonoBehaviour
     public int health;
     public int maxHealth;
     
-
+    
 
     void Start()
     {
@@ -43,12 +43,12 @@ public class ia : MonoBehaviour
         }
         else if (currentState == "ChaseState")
         {
-            anim.SetBool("Chase", true);
+            anim.SetTrigger("Chase");
             anim.SetBool("Attack", false);
 
             if (  distance < atckDist )
             {
-                currentState = "AtackState";
+                currentState = "AttackState";
             }
 
             if (target.position.x > transform.position.x)
@@ -78,7 +78,7 @@ public class ia : MonoBehaviour
     {
         health -= damage;
 
-        if (health < 1)
+        if (health < 0)
         {
             Die();
         }
